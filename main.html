@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Type the Word Game</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="game-container">
+    <h1>Type the Words</h1>
+    <div class="word-box">
+      <input type="text" id="input-box" placeholder="" autocomplete="off" disabled>
+      <div id="overlay-word"></div>
+    </div>
+    <button id="start-btn">Start Game</button>
+  </div>
+  
+  <div id="score-popup" class="hidden">
+    <h2>Your Score</h2>
+    <p id="score-message"></p>
+    /* need to add a start new game button here */
+  </div>
+
+  <script src="game.js"></script>
+</body>
+</html>

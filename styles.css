@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1b2e38;
+    color: #e1e5e7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .game-container {
+    text-align: center;
+  }
+  
+  h1 {
+    color: #e1e5e7;
+  }
+  
+  .word-box {
+    position: relative;
+    margin: 20px;
+  }
+  
+  #input-box {
+    width: 300px;
+    padding: 10px;
+    font-size: 18px;
+    border: 2px solid #224761;
+    background-color: #1d5072;
+    color: #e1e5e7;
+  }
+  
+  #overlay-word {
+    position: absolute;
+    top: 12px;
+    left: 10px;
+    font-size: 18px;
+    color: rgba(225, 229, 231, 0.3); /* Low opacity for the word */
+    pointer-events: none;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #224761;
+    color: #e1e5e7;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  #score-popup {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 30px;
+    background-color: #28232d;
+    border-radius: 8px;
+    display: none;
+    text-align: center;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
